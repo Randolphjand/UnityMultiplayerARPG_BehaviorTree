@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <uie:Toolbar>
+        <uie:ToolbarMenu display-tooltip-when-elided="true" text="Behavior Tree Assets" />
+        <uie:ToolbarButton tabindex="-1" text="Mini Map" display-tooltip-when-elided="true" name="miniMapButton" style="margin-left: 6px;" />
+    </uie:Toolbar>
+    <KitBehaviorTree.SplitView fixed-pane-initial-dimension="300">
+        <ui:VisualElement name="left-panel" style="min-width: 20%;">
+            <KitBehaviorTree.SplitView orientation="Vertical" fixed-pane-initial-dimension="400">
+                <ui:VisualElement name="inspector-container">
+                    <ui:Label text="Local Variables" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37); white-space: normal;" />
+                    <KitBehaviorTree.InspectorView />
+                </ui:VisualElement>
+                <ui:VisualElement name="blackboard-container" style="min-height: 30%;">
+                    <ui:Label text="Balckboard Shared Variables" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37);" />
+                    <ui:IMGUIContainer />
+                </ui:VisualElement>
+            </KitBehaviorTree.SplitView>
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="min-width: 20%;">
+            <ui:Label text="Tree View" display-tooltip-when-elided="true" style="background-color: rgb(37, 37, 37);" />
+            <KitBehaviorTree.BehaviourTreeView focusable="true" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </KitBehaviorTree.SplitView>
+    <ui:VisualElement name="Overlay" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.5); align-items: center; justify-content: center; display: flex;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgb(56, 56, 56); border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; max-height: 250px; min-height: 250px; min-width: 533px; max-width: 533px;">
+            <ui:VisualElement style="flex-grow: 1; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; background-color: rgb(56, 56, 56);">
+                <ui:Label text="Create New Tree" display-tooltip-when-elided="true" style="-unity-text-align: upper-left; font-size: 25px; color: rgb(210, 210, 210); -unity-font-style: bold;" />
+                <ui:TextField picking-mode="Ignore" label="Name" value="New Behaviour Tree" text="New Behaviour Tree" name="TreeName" style="margin-top: 20px;" />
+                <ui:TextField picking-mode="Ignore" label="Location" value="Assets/" text="Assets/UnityMultiplayerARPG_BehaviorTree" name="LocationPath" readonly="false" style="margin-top: 10px;" />
+                <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center; min-height: 80px;">
+                    <ui:Label tabindex="-1" text="To Edit Existing Behavior Tree:  Close this editor window and double click on the desired behavior tree scriptable object in the project files." display-tooltip-when-elided="true" style="width: 360px; height: 60px; flex-wrap: nowrap; -unity-text-align: middle-center; white-space: normal;" />
+                </ui:VisualElement>
+                <ui:Button text="Create" display-tooltip-when-elided="true" name="CreateButton" style="min-height: 50px; height: 50px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

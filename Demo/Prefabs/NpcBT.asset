@@ -1,0 +1,359 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7764300739663452553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd163448379b3724989e23e305921912, type: 3}
+  m_Name: SndUnityAction
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 0f2bb93abe19f4444ba2468bd91bafb0
+  position: {x: 556.03186, y: 577.32416}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+--- !u!114 &-7723253544260939096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9e411f4095d0a44acd9a25323f5e73, type: 3}
+  m_Name: Log
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d24ddf3e2d92d064398f02968b2a136e
+  position: {x: 382.90756, y: 570.29156}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  message: From NPC BT
+  messageColor: 4
+--- !u!114 &-5046438616160154130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 13336613b5fca1942b0881532a06e112
+  position: {x: 0.0000150203705, y: 177.6}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 6237925432773317867}
+  - {fileID: 1717393349332295827}
+  - {fileID: -2483324983880296001}
+  - {fileID: 5499992415027888459}
+--- !u!114 &-4761220136827288713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163c147d123e4a945b688eddc64e3ea5, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f7509a9bd57dcd54aa71e7324987f0be
+  position: {x: 0, y: 0}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  child: {fileID: 455863689509104259}
+--- !u!114 &-4609552469683308398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3e914590287f16d4d9c78123718574ee
+  position: {x: 793.6, y: 469.59998}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: 2335307290673030784}
+--- !u!114 &-2483324983880296001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5134d9de14153468b48928d3e7359a, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 08019d26fc50d2841bd3e8c59f7899a7
+  position: {x: 166.80003, y: 371.2}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  duration: 5
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d285eb63c2cdd74180de7cfceaa96ad, type: 3}
+  m_Name: NpcBT
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -4761220136827288713}
+  treeState: 0
+  nodes:
+  - {fileID: -4761220136827288713}
+  - {fileID: 455863689509104259}
+  - {fileID: -5046438616160154130}
+  - {fileID: 6237925432773317867}
+  - {fileID: 1717393349332295827}
+  - {fileID: -2483324983880296001}
+  - {fileID: -7723253544260939096}
+  - {fileID: 2837848686943955415}
+  - {fileID: -4609552469683308398}
+  - {fileID: 2335307290673030784}
+  - {fileID: 5499992415027888459}
+  - {fileID: -7764300739663452553}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+--- !u!114 &455863689509104259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb5496e8cd973748a10b3e3ef436ebd, type: 3}
+  m_Name: Repeat
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ba3c5828f076c5d46ab23bc93271dc99
+  position: {x: 0.0000150203705, y: 86.8}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  child: {fileID: -5046438616160154130}
+  restartOnSuccess: 1
+  restartOnFailure: 0
+--- !u!114 &1717393349332295827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8c48b98211554ca03c71d06f64bba, type: 3}
+  m_Name: MoveToPosition
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 45519940ed0eb98469b2b61feac8234b
+  position: {x: 16.599976, y: 371.2}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  tolerance: 1
+  extraMovementState: 0
+--- !u!114 &2335307290673030784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df9e411f4095d0a44acd9a25323f5e73, type: 3}
+  m_Name: Log
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: e46947d57b245254ab40d0227a79f893
+  position: {x: 809.44, y: 612.85175}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  message: From RecCsharpEvent
+  messageColor: 1
+--- !u!114 &2837848686943955415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61431bba79d7d7843b82bf1de71703f5, type: 3}
+  m_Name: Sequencer
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 739dd58b93b2935438950849675fa39a
+  position: {x: 418.40002, y: 438.00003}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  children:
+  - {fileID: -7723253544260939096}
+  - {fileID: -7764300739663452553}
+--- !u!114 &5499992415027888459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304e77a1fce5db540a446581d1c38079, type: 3}
+  m_Name: RecUnityAction
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a9146266f8e1f2f47a4350ed9f411aec
+  position: {x: 418.20007, y: 299.01114}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  child: {fileID: 2837848686943955415}
+--- !u!114 &6237925432773317867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9ea3913ec0ce344b1b9feac7f065fd, type: 3}
+  m_Name: RandomWander
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1fa84e67d775b814293f0206af92c599
+  position: {x: -149.99997, y: 371.2}
+  blackboard:
+    moveToPosition: {x: 0, y: 0, z: 0}
+    activityComp: {fileID: 0}
+    queueSkill: {fileID: 0}
+    queueSkillLevel: 0
+    isLeftHandAttacking: 0
+    enemies: []
+  description: 
+  drawGizmos: 0
+  randomWanderDistance: 2
