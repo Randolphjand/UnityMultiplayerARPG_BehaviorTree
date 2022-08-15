@@ -82,7 +82,7 @@ public class NpcMoveToPosition : ActionNode
             //    isMoving = false;
             //    return State.Success;
             //}
-            if (Vector3.Distance(npcEntity.CacheTransform.position, blackboard.moveToPosition) < tolerance)
+            if (Vector3.Distance(npcEntity.EntityTransform.position, blackboard.moveToPosition) < tolerance)
             {
                 isMoving = false;
                 return State.Success;
